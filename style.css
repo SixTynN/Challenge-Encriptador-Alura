@@ -137,3 +137,52 @@ footer{
     color: #CBE4DE;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 800px) and (max-height:952px) {
+* {
+        overflow-x: hidden;
+        font-size: 14px;
+        max-width: 100%;
+        margin: auto;
+       
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: -35px;
+    
+}
+
+.titulo{
+    
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+main{
+
+    display: border;
+    padding-left: 50px;
+}
+.informacion {
+    font-size: 14px;
+
+
+}
+
+.botones{
+    margin-top: 18px;
+    margin-right: 30px;
+    padding-left: 0px;
+
+}
+.btn-encriptar {
+   font-size: 11px;
+}
+.btn-desencriptar{
+   font-size: 11px;
+}
+.copiar {
+    font-size: 11px;
+}
+}
